@@ -8,9 +8,8 @@ int main(void)
 	for (int i = 1; i <= number; i++)
 	{
 	    somme = somme + i;
-	    printf("%d + ", i);
 	}
-	printf("= %d", somme);
+	printf("%d", somme);
 
 	return 0;
 }

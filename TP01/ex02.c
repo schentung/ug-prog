@@ -5,7 +5,7 @@ int main(void)
     int number = 3;
     char *text = "Une phrase";
     
-    for (number; number <= 3; number++)
+    for (int i = 1; i <= number; i++)
     {
         write(1, text, 10);
     }
