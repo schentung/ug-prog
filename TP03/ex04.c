@@ -8,7 +8,7 @@ int ft_sqrt(int number)
         return -1;
     }
     i = 0;
-    while (i * i <number)
+    while (i * i < number)
     {
         i++;
     }
