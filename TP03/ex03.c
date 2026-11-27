@@ -19,11 +19,3 @@ void ft_triangle_v2(int number)
         i++;
     }
 }
-
-
-
-int main(void)
-{
-    ft_triangle_v2(4);
-    return 0;
-}
