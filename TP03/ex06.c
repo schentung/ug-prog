@@ -14,7 +14,7 @@ int ft_is_prime(int number)
 
 int ft_find_next_prime(int number)
 {
-    int i = 1;
+    int i = 0;
     int resultat;
     while (ft_is_prime(number + i) == 0)
     {

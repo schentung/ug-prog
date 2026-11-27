@@ -4,7 +4,7 @@ void ft_triangle_v2(int number)
 {
     int i;
     int j;
-    
+    int ligne = 0;
     i = 0;
     while (i <= number)
     {
@@ -15,7 +15,10 @@ void ft_triangle_v2(int number)
             write(1, &c, 1);
             j++;
         }
-        write(1, "\n", 1);
+        
+        if (ligne < number)
+            write(1, "\n", 1);
+        ligne++;
         i++;
     }
 }
