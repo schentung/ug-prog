@@ -18,9 +18,3 @@ void ft_triangle(int number)
         i++;
     }
 }
-
-int main(void)
-{
-    ft_triangle(4);
-    return 0;
-}
